@@ -34,6 +34,6 @@ setInterval(function() {
     M = 50;
   }
   
-  $(h).innerHTML = `Казино ${M}ккк`;
-  $(".im-chat-input--send").click();
+  document.querySelector(h).innerHTML = `Казино ${M}ккк`;
+  document.querySelector(".im-chat-input--send").click();
 }, 5000);
